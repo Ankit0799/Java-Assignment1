@@ -4,6 +4,8 @@ public class TestClient{
 
         CardPack cp = CardPack.shared;
         cp.showDeck();
+        cp.shuffileDeck();
+        cp.showDeck();
 
     }
 }

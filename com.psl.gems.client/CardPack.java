@@ -3,6 +3,8 @@ import Constants.AllCards.Suit;
 import Model.Card;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.EnumSet;
 
 final class CardPack {
@@ -27,8 +29,8 @@ final class CardPack {
         System.out.println(deck);
     }
 
-    // public Card[] shuffile
-
-    
+    public void shuffileDeck(){
+        Collections.shuffle(deck);
+    }
     
 }
