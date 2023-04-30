@@ -1,5 +1,5 @@
 package Utilities;
-
+//Provides template for html.
 public class Html {
     public static String data =
     """

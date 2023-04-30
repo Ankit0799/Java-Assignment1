@@ -3,6 +3,7 @@ package Model;
 import Constants.AllCards.Rank;
 import Constants.AllCards.Suit;
 
+//POJO for CARD
 public class Card {
     private Suit cardSuit;
     private Rank cardRank;

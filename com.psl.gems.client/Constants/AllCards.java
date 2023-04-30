@@ -1,5 +1,5 @@
 package Constants;
-
+//This class will help us to define Suit and Rank of a Card with provided weight.
 public class AllCards {
 
    public enum Suit {
